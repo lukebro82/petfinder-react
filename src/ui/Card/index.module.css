@@ -1,0 +1,60 @@
+.rootel {
+  background-color: #26302e;
+  border-radius: 10px;
+  max-width: 340px;
+  max-height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divimagen {
+  width: 320px;
+  height: 136px;
+  padding: 7px;
+}
+.divinferior {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.h1card {
+  margin: 2px;
+  color: white;
+  font-size: 28px;
+  text-align: left;
+  text-wrap: balance;
+  width: 180px;
+  text-align: left;
+}
+.h2card {
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  text-wrap: balance;
+  width: 180px;
+  text-align: left;
+  padding-top: 4px;
+}
+
+.buttoncard {
+  margin-top: 5px;
+  width: 120px;
+  height: 40px;
+  background-color: #eb6372;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.cardimagen {
+  max-width: 320px;
+  max-height: 136px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}

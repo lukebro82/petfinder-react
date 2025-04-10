@@ -1,0 +1,92 @@
+.homepagepetreport {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  gap: 40px;
+  background: linear-gradient(191.08deg, #ffffff 8.17%, #def4f0 62.61%);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 50px; /* Espacio para los botones */
+}
+.formregistropet {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registroinput {
+  width: 335px;
+  height: 50px;
+  border-radius: 4px;
+  border-style: none;
+}
+.formh1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+  margin: 0;
+}
+.formh3 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: center;
+  margin: 0;
+}
+.forma {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 18.75px;
+  margin: 0px;
+  color: #5a8fec;
+  text-align: center;
+}
+.textform {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 18.75px;
+  margin: 0px;
+}
+.registrolabel {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.formbutton {
+  margin: 0 auto;
+}
+
+.ropzone {
+  width: 335px;
+  height: 180px;
+  border-radius: 10px;
+  border: 2px dashed #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.map {
+  margin: 0 auto;
+}
+
+.divlabelinput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

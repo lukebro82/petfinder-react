@@ -1,0 +1,39 @@
+.homepage {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+  gap: 150px;
+  background: linear-gradient(191.08deg, #ffffff 8.17%, #def4f0 62.61%);
+}
+.h1datos {
+  padding-top: 8px;
+  font-weight: 800;
+  font-size: 38px;
+}
+
+.cerrarSesion {
+  font-weight: 400;
+  font-size: 22px;
+  color: #3b97d3;
+}
+
+.cerrarSesion:hover {
+  cursor: pointer;
+}
+
+.cerrarEmail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+}
+.divbotones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}

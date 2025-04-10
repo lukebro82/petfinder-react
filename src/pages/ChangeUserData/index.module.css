@@ -1,0 +1,36 @@
+.homepage {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 92vh;
+  gap: 45px;
+  background: linear-gradient(191.08deg, #ffffff 8.17%, #def4f0 62.61%);
+}
+.datosform {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.h1datos {
+  padding: 8px;
+  font-weight: 800;
+  font-size: 38px;
+  text-align: center;
+  line-height: 1.5;
+}
+.datosinput {
+  width: 335px;
+  height: 50px;
+  border-radius: 4px;
+  border-style: none;
+}
+.datoslabel {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.guardar {
+  margin: 0 auto;
+}

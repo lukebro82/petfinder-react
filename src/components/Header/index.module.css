@@ -1,0 +1,63 @@
+.root {
+  height: 8vh;
+  background-color: #26302e;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.burgermenu {
+  display: none;
+}
+
+.burgermenuopen {
+  background-color: #26302e;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  gap: 38px;
+  color: white;
+  text-align: center;
+}
+
+.burgerlink {
+  text-decoration: none;
+}
+.burgerlink:hover {
+  cursor: pointer;
+}
+
+.burger {
+  width: 35px;
+  height: 35px;
+}
+
+.xicon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  margin: 15px 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.cerrarSesion {
+  font-size: 22px;
+  color: aqua;
+}
+
+.cerrarSesion:hover {
+  cursor: pointer;
+}

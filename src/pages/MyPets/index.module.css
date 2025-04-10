@@ -1,0 +1,32 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 92vh;
+  text-align: center;
+  gap: 40px;
+  background: linear-gradient(191.08deg, #ffffff 8.17%, #def4f0 62.61%);
+  overflow-y: hidden;
+}
+.homemascotash1 {
+  padding-top: 8px;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.nomascotas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.mascotaslist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  overflow-y: auto;
+  width: 400px;
+}
