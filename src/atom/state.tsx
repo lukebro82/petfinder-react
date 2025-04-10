@@ -50,6 +50,7 @@ interface AuthState {
   fetchLogin: (email: string, password: any) => Promise<void>;
   closeSession: () => void;
   patchUser: (name: string, location: string) => Promise<void>;
+  newpass: (email: string, password: any) => Promise<void>;
 }
 
 export const useAuthState = create<AuthState>()(
@@ -106,7 +107,7 @@ export const useAuthState = create<AuthState>()(
           }),
         }).then((res) => res.json());
       },
-      newPass: async (email: string, password: any): Promise<any> => {
+      newpass: async (email: string, password: any): Promise<any> => {
         return fetch(apiBaseUrl + "/auth", {
           method: "PATCH",
           headers: {

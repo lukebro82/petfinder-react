@@ -9,7 +9,7 @@ export const ChangePass = () => {
   const navigate = useNavigate();
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const { newPass, email, token } = useAuthState();
+  const { newpass, email, token } = useAuthState();
 
   useEffect(() => {
     if (!token) {
@@ -29,7 +29,7 @@ export const ChangePass = () => {
       setConfirmPassword("");
       return;
     } else {
-      newPass(password, email);
+      newpass(password, email);
       Swal.fire({
         icon: "success",
         title: "Success",
