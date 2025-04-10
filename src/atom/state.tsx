@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
-const apiBaseUrl = "http://localhost:3000";
+const apiBaseUrl = "https://pet-finder-osj6.onrender.com";
 
 interface PetsNear {
   pets: [];
