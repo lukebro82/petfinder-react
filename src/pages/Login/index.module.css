@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 92vh;
+  height: 92dvh;
   gap: 40px;
   background: linear-gradient(191.08deg, #ffffff 8.17%, #def4f0 62.61%);
 }
@@ -37,7 +37,7 @@
 .forma {
   text-decoration: none;
   font-family: Roboto;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 18.75px;
   margin: 0px;

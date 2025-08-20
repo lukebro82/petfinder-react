@@ -219,7 +219,6 @@ export const ReportPet = () => {
         />
       </form>
 
-      {/* BOTÓN QUE DISPARA EL FORM POR ID */}
       <ButtonEl
         id="button1"
         form="reportForm"

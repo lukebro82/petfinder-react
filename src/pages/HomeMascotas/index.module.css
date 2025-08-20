@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 92vh;
+  height: 92dvh;
   text-align: center;
   gap: 40px;
   background: linear-gradient(191.08deg, #ffffff 8.17%, #def4f0 62.61%);
   overflow-y: auto; /* Habilita desplazamiento vertical */
 }
+
 .homemascotash1 {
   padding-top: 8px;
   font-weight: 800;

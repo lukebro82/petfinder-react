@@ -251,7 +251,7 @@ export const usePetToEdit = create<PetToEdit>((set) => ({
 }));
 
 interface MailState {
-  senMail: (
+  sendMail: (
     petid: string,
     message: string,
     from: any,
@@ -260,7 +260,7 @@ interface MailState {
 }
 
 export const useMailState = create<MailState>(() => ({
-  senMail: async (petid: string, message: string, from: any, tel: any) => {
+  sendMail: async (petid: string, message: string, from: any, tel: any) => {
     return fetch(apiBaseUrl + "/mail", {
       method: "POST",
       headers: {

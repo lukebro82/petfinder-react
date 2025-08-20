@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 92vh;
+  height: 92dvh;
   gap: 40px;
   background: linear-gradient(191.08deg, #ffffff 8.17%, #def4f0 62.61%);
 }
@@ -11,7 +11,7 @@
 .formregistro {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
 .registroinput {
   width: 335px;

@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 export const Homemascotas = () => {
   const { pets } = usePetsNears();
   const [openFormId, setOpenFormId] = useState<string | null>(null);
-  const { senMail } = useMailState();
+  const { sendMail } = useMailState();
   const navigator = useNavigate();
 
   const handleSubmit = (e: any) => {
@@ -19,7 +19,7 @@ export const Homemascotas = () => {
     const phone = e.target.phone.value;
     const message = e.target.message.value;
     const id = e.target.id.split("-")[1];
-    senMail(id, message, name, phone).then(() => {
+    sendMail(id, message, name, phone).then(() => {
       setOpenFormId(null);
       navigator("/homemascotas");
     });
