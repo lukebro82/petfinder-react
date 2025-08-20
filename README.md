@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# Pet Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pet Finder es una aplicación web desarrollada con React, TypeScript y Vite que permite reportar, buscar y editar mascotas perdidas cerca de tu ubicación. Utiliza Mapbox para geolocalización y un backend en Node.js/Express para la gestión de usuarios, mascotas y reportes.
 
-Currently, two official plugins are available:
+## Funcionalidades principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Registro e inicio de sesión de usuarios.
+- Reporte de mascotas perdidas con foto y ubicación.
+- Edición y eliminación de reportes de mascotas propias.
+- Búsqueda de mascotas perdidas cerca de tu ubicación.
+- Envío de información sobre mascotas vistas a sus dueños.
+- Gestión de datos personales y cambio de contraseña.
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend:** React 19, TypeScript, Vite, Zustand, Mapbox GL, SweetAlert2.
+- **Backend:** Node.js, Express, Algolia, Cloudinary.
+- **Estilos:** CSS Modules.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Scripts disponibles
+
+- `npm run dev` – Inicia el servidor de desarrollo.
+- `npm run build` – Compila la aplicación para producción.
+- `npm run preview` – Previsualiza la aplicación de producción.
+
+## Estructura del proyecto
+
+```
+src/
+  atom/           # Estado global (Zustand)
+  components/     # Componentes reutilizables
+  hooks/          # Custom hooks
+  pages/          # Vistas principales
+  router/         # Rutas de la app
+  ui/             # Componentes UI
+  assets/         # Imágenes y recursos
+public/
+  vite.svg
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Cómo empezar
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+2. Inicia el servidor de desarrollo:
+   ```sh
+   npm run dev
+   ```
+3. Accede a la app en [http://localhost:3000](http://localhost:3000).
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+Desarrollado para el curso Nivel
